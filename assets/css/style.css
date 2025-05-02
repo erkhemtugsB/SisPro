@@ -714,6 +714,16 @@ a.lightbox-gallery::after {
     -webkit-transform: scale(1)
 }
 
+.logo-img {
+    width: 50%;
+}
+
+@media (max-width: 767px) {
+    .logo-img {
+        width: 25% !important;
+    }
+}
+
 .mainmenu-area .logo {
     margin: 15px 0 0
 }
