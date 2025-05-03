@@ -610,6 +610,19 @@ a.lightbox-gallery::after {
     z-index: 99999 !important
 }
 
+/* Hide the button by default */
+.mobile-only {
+    display: none;
+}
+
+/* Show the button only on screens smaller than 768px */
+@media (max-width: 768px) {
+    .mobile-only {
+        display: block;
+    }
+}
+
+
 .mainmenu-area .mainmenu {
     padding-right: 30px
 }
