@@ -455,15 +455,15 @@ a.lightbox-gallery::after {
 }
 
 .slide-bg-1 {
-    background-image: url(../img/background.png)
+    background-image: url(../img/background.webp)
 }
 
 .slide-bg-2 {
-    background-image: url(../img/background2.png)
+    background-image: url(../img/background2.webp)
 }
 
 .slide-bg-3 {
-    background-image: url(../img/background2.png)
+    background-image: url(../img/background2.webp)
 }
 
 .service-bg-1 {
@@ -471,11 +471,11 @@ a.lightbox-gallery::after {
 }
 
 .service-bg-2 {
-    background-image: url(../img/service-bg-2.jpg)
+    background-image: url(../img/IMG_9777.webp)
 }
 
 .service-bg-3 {
-    background-image: url(../img/service-bg-3.jpg)
+    background-image: url(../img/IMG_9738.webp)
 }
 
 .service-bg-4 {
@@ -507,7 +507,7 @@ a.lightbox-gallery::after {
 }
 
 .promo-video-bg {
-    background-image: url(../img/about.png)
+    background-image: url(../img/about.webp)
 }
 
 .shop-item-bg-1 {
