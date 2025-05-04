@@ -1509,6 +1509,9 @@ a.lightbox-gallery::after {
 .single-service-item-block {
     margin-bottom: 50px
 }
+#service-row {
+    gap: 100px; /* Adds spacing between the blocks */
+}
 
 .single-service-item-block h3 {
     text-align: center;
