@@ -1048,6 +1048,13 @@ a.lightbox-gallery::after {
     margin-top: 20px
 }
 
+@media (min-width: 768px) and (max-width: 820px) {
+    .logo, /* Hides the logo */
+    .cleaning-btn, /* Hides the "Book now" button */
+    .responsive-menu-wrap { /* Hides the responsive menu */
+        display: none !important;
+    }
+}
 /* Gallery styles */
 .gallery {
     padding: 2rem;
