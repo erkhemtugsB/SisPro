@@ -77,13 +77,13 @@
                 <div class=col-lg-10>
                     <div class=mainmenu>
                         <ul id=navigation>
-                            <li class=active><a href=index.html>Home</a>
+                            <li><a href=index.html>Home</a>
                             </li>
                             <!-- <li><a href=index.html#about-us>About</a></li> -->
                             <li><a href="services.html">Services</a></li>
                             <li><a href=commercial-cleaning.html>Commercial Cleaning</a></li>
                             <li><a href=residential-cleaning.html>Residential Cleaning</a></li>
-                            <li><a href="checklist.html">Checklist</a></li>
+                            <li class="active"><a href="checklist.html">Checklist</a></li>
                             <li><a href="assistance.html">Customer Assistance</a></li>
                             <!-- <li><a href=#footer>Contact</a></li> -->
                             <!-- <li>
@@ -97,6 +97,235 @@
             </div>
         </div>
     </div>
+
+
+
+    <section class="py-5 bg-light">
+        <div class="container">
+
+            <h2 class="mb-4 text-center">Types of Cleaning We Offer</h2>
+
+            <div class="d-flex justify-content-center mb-4">
+                <button type="button" class="btn btn-outline-primary me-2"
+                    onclick="showType('standard')">Standard</button>
+                <button type="button" class="btn btn-outline-primary me-2" onclick="showType('deep')">Deep</button>
+                <button type="button" class="btn btn-outline-primary" onclick="showType('move')">Move In/Out</button>
+            </div>
+
+            <!-- Standard Cleaning -->
+            <div class="row g-4 cleaning-type" id="standard">
+                <!-- Kitchen -->
+                <div class="col-md-6">
+                    <div class="p-4 bg-white h-100 border rounded">
+                        <h3 class="mb-3">Kitchen</h3>
+                        <ul>
+                            <li>✔ Wipe Fridge</li>
+                            <li>✔ Clean Countertops</li>
+                            <li>✔ Wipe Appliances</li>
+                            <li>✔ Clean Sink</li>
+                            <li>✔ Clean Stove</li>
+                            <li>✗ Clean Stainless Steel</li>
+                            <li>✗ Wipe Oven</li>
+                            <li>✔ Microwave (inside)</li>
+                            <li>✗ Cabinets (inside)</li>
+                            <li>✗ Drawers (inside)</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- Bathrooms -->
+                <div class="col-md-6">
+                    <div class="p-4 bg-white h-100 border rounded">
+                        <h3 class="mb-3">Bathrooms</h3>
+                        <ul>
+                            <li>✔ Clean Countertops</li>
+                            <li>✔ Scrub Toilets</li>
+                            <li>✔ Clean Sink</li>
+                            <li>✔ Rinse & Wipe Tub</li>
+                            <li>✔ Rinse & Wipe Shower</li>
+                            <li>✗ Scrub Tub/Shower</li>
+                            <li>✗ Buff Mirror & Chrome</li>
+                            <li>✗ Cabinets (inside)</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- All Areas -->
+                <div class="col-md-6">
+                    <div class="p-4 bg-white h-100 border rounded">
+                        <h3 class="mb-3">All areas</h3>
+                        <ul>
+                            <li>✔ Empty Bins</li>
+                            <li>✔ Vacuum & Mop</li>
+                            <li>✔ Dust All Surfaces</li>
+                            <li>✗ Clean Baseboards</li>
+                            <li>✗ Light Switches</li>
+                            <li>✗ Clean Window Ledges</li>
+                            <li>✗ Dust & Wipe Doors</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- Bedrooms -->
+                <div class="col-md-6">
+                    <div class="p-4 bg-white h-100 border rounded">
+                        <h3 class="mb-3">Bedrooms</h3>
+                        <ul>
+                            <li>✔ Quick De-clutter</li>
+                            <li>✔ Make Beds</li>
+                            <li>✔ Dust All Surfaces</li>
+                            <li>✔ Wipe Tables</li>
+                            <li>✗ Clean Cabinets (inside)</li>
+                            <li>✗ Change Sheets (request)</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Deep cleaning -->
+            <div class="row g-4 cleaning-type d-none" id="deep">
+                <!-- Kitchen -->
+                <div class="col-md-6">
+                    <div class="p-4 bg-white h-100 border rounded">
+                        <h3 class="mb-3">Kitchen</h3>
+                        <ul>
+                            <li>✔ Wipe Fridge</li>
+                            <li>✔ Clean Countertops</li>
+                            <li>✔ Wipe Appliances</li>
+                            <li>✔ Clean Sink</li>
+                            <li>✔ Clean Stove</li>
+                            <li>✔ Clean Stainless Steel</li>
+                            <li>✔ Wipe Oven</li>
+                            <li>✔ Microwave (inside)</li>
+                            <li>✗ Cabinets (inside)</li>
+                            <li>✗ Drawers (inside)</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- Bathrooms -->
+                <div class="col-md-6">
+                    <div class="p-4 bg-white h-100 border rounded">
+                        <h3 class="mb-3">Bathrooms</h3>
+                        <ul>
+                            <li>✔ Clean Countertops</li>
+                            <li>✔ Scrub Toilets</li>
+                            <li>✔ Clean Sink</li>
+                            <li>✔ Rinse & Wipe Tub</li>
+                            <li>✔ Rinse & Wipe Shower</li>
+                            <li>✔ Scrub Tub/Shower</li>
+                            <li>✔ Buff Mirror & Chrome</li>
+                            <li>✔ Cabinets (inside)</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- All Areas -->
+                <div class="col-md-6">
+                    <div class="p-4 bg-white h-100 border rounded">
+                        <h3 class="mb-3">All areas</h3>
+                        <ul>
+                            <li>✔ Empty Bins</li>
+                            <li>✔ Vacuum & Mop</li>
+                            <li>✔ Dust All Surfaces</li>
+                            <li>✔ Clean Baseboards</li>
+                            <li>✔ Light Switches</li>
+                            <li>✔ Clean Window Ledges</li>
+                            <li>✔ Dust & Wipe Doors</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- Bedrooms -->
+                <div class="col-md-6">
+                    <div class="p-4 bg-white h-100 border rounded">
+                        <h3 class="mb-3">Bedrooms</h3>
+                        <ul>
+                            <li>✔ Quick De-clutter</li>
+                            <li>✔ Make Beds</li>
+                            <li>✔ Dust All Surfaces</li>
+                            <li>✔ Wipe Tables</li>
+                            <li>✔ Clean Cabinets (inside)</li>
+                            <li>✔ Change Sheets (request)</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Move In/Out Cleaning (initially hidden) -->
+            <div class="row g-4 cleaning-type d-none" id="move">
+                <!-- Kitchen -->
+                <div class="col-md-6">
+                    <div class="p-4 bg-white h-100 border rounded">
+                        <h3 class="mb-3">Kitchen</h3>
+                        <ul>
+                            <li>✔ Wipe Fridge</li>
+                            <li>✔ Clean Countertops</li>
+                            <li>✔ Wipe Appliances</li>
+                            <li>✔ Clean Sink</li>
+                            <li>✔ Clean Stove</li>
+                            <li>✔ Clean Stainless Steel</li>
+                            <li>✔ Wipe Oven</li>
+                            <li>✔ Microwave (inside)</li>
+                            <li>✔ Cabinets (inside)</li>
+                            <li>✔ Drawers (inside)</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- Bathrooms -->
+                <div class="col-md-6">
+                    <div class="p-4 bg-white h-100 border rounded">
+                        <h3 class="mb-3">Bathrooms</h3>
+                        <ul>
+                            <li>✔ Clean Countertops</li>
+                            <li>✔ Scrub Toilets</li>
+                            <li>✔ Clean Sink</li>
+                            <li>✔ Rinse & Wipe Tub</li>
+                            <li>✔ Rinse & Wipe Shower</li>
+                            <li>✔ Scrub Tub/Shower</li>
+                            <li>✔ Buff Mirror & Chrome</li>
+                            <li>✔ Cabinets (inside)</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- All Areas -->
+                <div class="col-md-6">
+                    <div class="p-4 bg-white h-100 border rounded">
+                        <h3 class="mb-3">All areas</h3>
+                        <ul>
+                            <li>✔ Empty Bins</li>
+                            <li>✔ Vacuum & Mop</li>
+                            <li>✔ Dust All Surfaces</li>
+                            <li>✔ Clean Baseboards</li>
+                            <li>✔ Light Switches</li>
+                            <li>✔ Clean Window Ledges</li>
+                            <li>✔ Dust & Wipe Doors</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- Bedrooms -->
+                <div class="col-md-6">
+                    <div class="p-4 bg-white h-100 border rounded">
+                        <h3 class="mb-3">Bedrooms</h3>
+                        <ul>
+                            <li>✔ Quick De-clutter</li>
+                            <li>✔ Make Beds</li>
+                            <li>✔ Dust All Surfaces</li>
+                            <li>✔ Wipe Tables</li>
+                            <li>✔ Clean Cabinets (inside)</li>
+                            <li>✗ Change Sheets (request)</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+
 
 
 
@@ -221,6 +450,15 @@
     <script src="assets/js/jquery.counterup.min.js"></script>
     <script src="assets/js/waypoints.min.js"></script>
     <script src="assets/js/active.js"></script>
+
+    <script>
+        function showType(type) {
+          document.querySelectorAll('.cleaning-type').forEach(el => {
+            el.classList.add('d-none');
+          });
+          document.getElementById(type).classList.remove('d-none');
+        }
+      </script>
 </body>
 
 </html>
